@@ -113,7 +113,6 @@ void EVENT_USB_Device_Connect(void)
 void EVENT_USB_Device_Disconnect(void)
 {
     com_channel_deinit();
-    uart_int_deinit();
 }
 
 /** Event handler for the library USB Configuration Changed event. */
